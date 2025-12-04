@@ -1,0 +1,33 @@
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4065] using StatReload
+INFO:     Started server process [4069]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/mlops_env/lib/python3.10/site-packages/sklearn/preprocessing/_encoders.py:246: UserWarning: Found unknown categories in columns [0, 2] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+INFO:     127.0.0.1:38998 - "POST /predict HTTP/1.1" 200 OK
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+INFO:     127.0.0.1:42506 - "POST /classify HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4069]
+INFO:     Stopping reloader process [4065]
