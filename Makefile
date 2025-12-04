@@ -44,12 +44,12 @@ run-api:
 	@echo "\u2705 API started (logs in api.log)"
 
 # =========================================
-# 4. Launch GUI
+# 4. Launch Dashboard (Streamlit)
 # =========================================
 .PHONY: run-gui
 run-gui:
-	@echo "\U0001f5b1 Launching GUI..."
-	@. $(ENV_NAME)/bin/activate && $(PYTHON) productivity_gui.py
+	@echo "\U0001f5b1 Launching MLOps Dashboard..."
+	@. $(ENV_NAME)/bin/activate && streamlit run productivity_gui.py
 
 # =========================================
 # 5. Full Pipeline

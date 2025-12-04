@@ -31,3 +31,393 @@ INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
 INFO:     Finished server process [4069]
 INFO:     Stopping reloader process [4065]
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4231] using StatReload
+INFO:     Started server process [4235]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4235]
+INFO:     Started server process [4258]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4258]
+INFO:     Stopping reloader process [4231]
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4305] using StatReload
+INFO:     Started server process [4309]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:36634 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36648 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36658 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36660 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57832 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57842 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57844 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57856 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57860 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59570 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59578 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59586 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59598 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59602 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35310 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35322 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35336 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35348 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35362 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52660 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52670 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52672 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52684 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52694 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60902 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60904 - "GET /health HTTP/1.1" 404 Not Found
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/mlops_env/lib/python3.10/site-packages/sklearn/preprocessing/_encoders.py:246: UserWarning: Found unknown categories in columns [0, 2] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+INFO:     127.0.0.1:60916 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60928 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60936 - "GET /health HTTP/1.1" 404 Not Found
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+INFO:     127.0.0.1:60950 - "POST /classify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60956 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43020 - "GET /health HTTP/1.1" 404 Not Found
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/mlops_env/lib/python3.10/site-packages/sklearn/preprocessing/_encoders.py:246: UserWarning: Found unknown categories in columns [0, 2] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+INFO:     127.0.0.1:43030 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43040 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43044 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43058 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43068 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35408 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35418 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35432 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35436 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35444 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38266 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38282 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38284 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38286 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38288 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44454 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44462 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44468 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44476 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44478 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52628 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52636 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52648 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52652 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52656 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49302 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49312 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49316 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49328 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49340 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39152 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39154 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39166 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39168 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39174 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49860 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49874 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49882 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49892 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49904 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45770 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45774 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45776 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45786 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45792 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33750 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33760 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33770 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33778 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33782 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49102 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49114 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49130 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49144 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49160 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55684 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55690 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55694 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55696 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55698 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55062 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55078 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55082 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55086 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55102 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48722 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48726 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48738 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48754 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37704 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37718 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37732 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37738 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37742 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60256 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60266 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60278 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60284 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60290 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45154 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45168 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45184 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45190 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45200 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45572 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45574 - "GET /health HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4309]
+INFO:     Started server process [4332]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:45580 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45590 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45600 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59974 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59982 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59990 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59998 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60000 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48682 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48698 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48704 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48720 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48722 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55474 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55486 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55490 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55506 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55510 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34452 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34460 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34462 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34474 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34488 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57474 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57488 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57504 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57512 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57516 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56078 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56088 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56092 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56106 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56120 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46726 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46738 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46744 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46754 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46758 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37078 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37088 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37090 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37104 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37108 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43174 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43176 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4332]
+INFO:     Stopping reloader process [4305]
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4391] using StatReload
+INFO:     Started server process [4395]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+ERROR:    [Errno 98] Address already in use
+INFO:     127.0.0.1:43112 - "GET /health HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4395]
+INFO:     Started server process [5292]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+ERROR:    [Errno 98] Address already in use
+INFO:     127.0.0.1:40722 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58020 - "GET /health HTTP/1.1" 404 Not Found
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/mlops_env/lib/python3.10/site-packages/sklearn/preprocessing/_encoders.py:246: UserWarning: Found unknown categories in columns [0, 2] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+INFO:     127.0.0.1:58026 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58032 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56940 - "GET /health HTTP/1.1" 404 Not Found
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+INFO:     127.0.0.1:56948 - "POST /classify HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5292]
+INFO:     Started server process [6028]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+ERROR:    [Errno 98] Address already in use
+INFO:     127.0.0.1:50434 - "GET /health HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6028]
+INFO:     Started server process [6759]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+ERROR:    [Errno 98] Address already in use
+INFO:     127.0.0.1:46172 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39482 - "GET /health HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6759]
+INFO:     Started server process [7530]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7530]
+INFO:     Started server process [7551]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7551]
+INFO:     Started server process [7575]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7575]
+INFO:     Started server process [7581]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+ERROR:    [Errno 98] Address already in use
+INFO:     127.0.0.1:46632 - "GET /health HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7581]
+INFO:     Started server process [8302]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+ERROR:    [Errno 98] Address already in use
+INFO:     127.0.0.1:49448 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51246 - "GET /health HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8302]
+INFO:     Started server process [9021]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9021]
+INFO:     Started server process [9033]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'productivity_gui.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9033]
+INFO:     Started server process [9044]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Will watch for changes in these directories: ['/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project']
+ERROR:    [Errno 98] Address already in use
+INFO:     127.0.0.1:59700 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47234 - "GET /health HTTP/1.1" 404 Not Found
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/mlops_env/lib/python3.10/site-packages/sklearn/preprocessing/_encoders.py:246: UserWarning: Found unknown categories in columns [0, 2] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+INFO:     127.0.0.1:47244 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48058 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48068 - "GET /health HTTP/1.1" 404 Not Found
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+/home/abderrahmen/Desktop/abderrahmen-oueslati-3A1-ml_project/api.py:63: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_class[col] = le.transform(df_class[col].astype(str))
+INFO:     127.0.0.1:48078 - "POST /classify HTTP/1.1" 200 OK
